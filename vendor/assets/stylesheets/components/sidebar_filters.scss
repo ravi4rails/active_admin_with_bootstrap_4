@@ -1,0 +1,99 @@
+.sidebar_section > h3 {
+  background-image: linear-gradient(180deg, #4b4444, #4b4444);
+  text-shadow: none !important;
+  color: #fff;
+  font-size: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 13px;
+  border: none !important;
+  font-weight: normal;
+  box-shadow: none !important;
+}
+
+
+form.filter_form .filter_form_field.select_and_search select, .sidebar_section select {
+  height: 36px;
+  padding: .375rem .75rem;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+form.filter_form .filter_form_field.filter_date_range input[type=text] {
+  padding: .375rem .75rem;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+}
+
+form.filter_form .filter_form_field.select_and_search input[type=text] {
+  height: 22px;
+}
+
+form.filter_form .filter_form_field.filter_date_range input[type=text] {
+  height:36px;
+}
+
+form.filter_form .filter_form_field.select_and_search input[type=text]:focus, 
+form.filter_form .filter_form_field.filter_date_range input[type=text]:focus, 
+form.filter_form .filter_form_field.select_and_search select:focus, 
+.sidebar_section select:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+form.filter_form .filter_form_field.select_and_search input[type=text]::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+form.filter_form .filter_form_field.select_and_search input[type=text]:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+form.filter_form .filter_form_field.select_and_search input[type=text]::-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+form.filter_form .filter_form_field.select_and_search input[type=text]::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.sidebar_section label {
+  margin-bottom:5px;
+}
+
+form input[type=submit], form input[type=button], form button {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+form input[type=submit], form input[type=button], 
+form button, form.filter_form a.clear_filters_btn, 
+form input[type=submit], form input[type=button]:hover {
+  background-image: none !important;
+  border-radius: 5px;
+  padding: 12px;
+  min-width: 75px;
+  font-size: 15px;
+  text-shadow: none !important;
+  font-weight: normal;
+}

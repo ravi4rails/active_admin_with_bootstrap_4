@@ -21,6 +21,7 @@ body.logged_out #login a {
   float: right;
   margin-top: -42px;
   font-size: 15px;
+  text-decoration: none !important;
 }
 
 form fieldset > ol > li.boolean label {
@@ -31,3 +32,39 @@ form fieldset > ol > li.boolean label {
   font-weight: bold;
   font-size: 12px;
 }
+
+#admin_user_email, #admin_user_password {
+  height:30px;
+  padding: .375rem .75rem;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#admin_user_email:focus, #admin_user_password:focus{
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+body.logged_out .flash {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: rgba(222, 14, 14, 0.65);
+  text-shadow: none;
+  color: #fff;
+  font-weight: normal;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
